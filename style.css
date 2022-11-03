@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+/* style toggle backround color */
+header{
+    display: flex;
+    justify-content: center;
+}
+.darkmode{
+    background-color: #818181;
+    color: white;
+    margin-top: 10px;
+    padding: 2px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Style sidebar  */
+aside{
+    background-color: #111;
+    position: fixed;
+    width: 0;
+    height: 100%;
+    z-index: 1;
+    transition: .5s;
+    padding-top: 60px;
+    top: 0;
+    left: 0;
+}
+
+/* style links  */
+aside a{
+    display: block;
+    text-decoration: none;
+    color: #818181;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+aside a:hover{
+    color: aliceblue;
+}
+
+/* style close sidebar button */
+aside .closebtn{
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    padding: 2px 10px;
+    transition: .5s;
+}
+
+aside .closebtn:hover{
+    border: solid 1px white;
+    background-color: #818181;
+}
+
+/* style main conten */
+main{
+    margin: 20px 50px;
+    transition: .5s;
+}
+
+/* style open sidebar button */
+main .openbtn{
+    width: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 1PX 5PX;
+    border-radius: 2PX;
+    transition: .5s;
+    display: block;
+}
+
+main .openbtn:hover{
+    background-color: #818181;
+}
+
+/* style section button */
+
+main .btntoggle{
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    font-size: 20px;
+    padding: 3px 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    display: block;
+}
+
+main .btntoggle:hover{
+    background-color: #818181;
+}
+
+/* style h2 */
+
+main .hhead{
+    margin: 80px 0 0 15px;
+}
+
+/* style contanier */
+main .container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+main .container .elments{
+    margin: 5px;
+    padding: 5px;
+}
+
+/* style container2 */
+main .container2{
+    margin-top: 50px;
+    transition: .5s; 
+}
+
+main .container2 h2{
+    color: rgb(85, 68, 68);
+    margin: 5px;
+}
+
+main .container2 h3{
+    color: red;
+    margin-left: 20px;
+    margin-top: 10px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>javascript</title>
+</head>
+<body>
+    <header>
+        <button class="darkmode" onclick="togglecolor()">switch mode</button>
+    </header>
+    <aside id="mySidebar">
+        <a href="#" class="closebtn" onclick="closeSidebar()">&times;</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </aside>
+    <main id="main">
+        <button class="openbtn" onclick="openSidebar()">&#9776;</button>
+        <button id="btn" class="btntoggle" onclick="toggle()">close section</button>
+        <section id="mysection">
+            <h2 class="hhead">full stack developer</h2>
+            <section class="container">
+                <div class="elments">
+                    <img src="imgs/html.jpg" width = "240px">
+                    <h3>html</h3>
+                    <p>hypertext markup language</p>
+                </div>
+                <div class="elments">
+                    <img src="imgs/css.jpg" width = "230px">
+                    <h3>css</h3>
+                    <p>Cascading Style Sheets</p>
+                </div>
+                <div class="elments">
+                    <img src="imgs/javascript.jpg" width = "250px">
+                    <h3>js</h3>
+                    <p>javascript</p>
+                </div>
+                <div class="elments">
+                    <img src="imgs/php.png" width = "250px">
+                    <h3>php</h3>
+                    <p>Hypertext Preprocessor</p>
+                </div>
+                <div class="elments">
+                    <img src="imgs/mysql.jpg" width = "240px">
+                    <h3>sql</h3>
+                    <p>Structured Query Language</p>
+                </div>
+            </section>
+            <section class="container2">
+                <h2>Create a function to calculate Average to this group of numbers (1, 2 , 3, 4, 5, 6, 7, 8, ,9 , 10)</h2>
+                <h3 id="avrrage"></h3>
+            </section>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
